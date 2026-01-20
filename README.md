@@ -27,18 +27,17 @@ This is my personal project — an Android app that combines a calendar and a sh
 - **YearMonth API:** This helps to easily calculate how many days to show before and after the current month.
 
 ## Screenshots
-![Screenshot_20260120_181537_MyCalendar](https://github.com/user-attachments/assets/386fe11e-3e99-40b3-af23-0e660cab9a33)
-![Screenshot_20260120_181520_MyCalendar](https://github.com/user-attachments/assets/6dd35794-35a5-48ce-a0d8-953f29fc8dd2)
-![Screenshot_20260120_183114_MyCalendar](https://github.com/user-attachments/assets/ca1d7567-e16d-413b-9bc7-ddca81251939)
-![Screenshot_20260120_183059_MyCalendar](https://github.com/user-attachments/assets/6ba9b5d5-cf6a-47f6-81ee-9ba43df41f01)
+<br>| **Light Mode** |<br>
+| <img src="https://github.com/user-attachments/assets/386fe11e-3e99-40b3-af23-0e660cab9a33" width="300" /> | <img src="https://github.com/user-attachments/assets/6ba9b5d5-cf6a-47f6-81ee-9ba43df41f01" width="300" /> |
+<br>| **Dark Mode** |<br>
+| <img src="https://github.com/user-attachments/assets/6dd35794-35a5-48ce-a0d8-953f29fc8dd2" width="300" /> | <img src="https://github.com/user-attachments/assets/ca1d7567-e16d-413b-9bc7-ddca81251939" width="300" /> |
 
-
-## 🛠 How to run
+## How to run
 1. Clone the repo.
 2. Open it in Android Studio.
 3. Run it on any device with **API 26+**.
 
-## 🛠 Work in Progress & Future Plans
+## Work in Progress & Future Plans
 
 This project is currently in the early stages of development. I'm actively working on it and plan to add the following features soon:
 
