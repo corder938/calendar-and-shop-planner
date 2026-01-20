@@ -1,0 +1,21 @@
+# Временные файлы сборки (Gradle)
+.gradle/
+build/
+**/build/
+
+# Настройки Android Studio (IDE)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Локальные файлы (содержат пути к твоему SDK)
+local.properties
+
+# Системные файлы
+.DS_Store
+captures/
+
+# Нативные сборки (если появятся)
+.externalNativeBuild
+.cxx

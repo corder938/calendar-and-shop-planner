@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyCalendar</string>
+    <string name="title_activity_nav_graph">NavGraph</string>
+</resources>
