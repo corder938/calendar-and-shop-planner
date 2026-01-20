@@ -2,32 +2,36 @@
 
 This is my personal project — an Android app that combines a calendar and a shopping list. I built it to practice **Jetpack Compose** and modern Android development.
 
-## 🚀 Technologies I used
+## Technologies I used
 - **Kotlin**: The main language.
 - **Jetpack Compose**: For building the UI without XML.
 - **Coroutines & Flow**: To handle data and keep the UI responsive.
 - **MVVM**: To separate business logic from the UI.
 - **Material 3**: For a modern look and dark mode support.
 
-## 🌟 Main Features
+## Main Features
 
-### 📅 Calendar
+### Calendar
 - I created a grid logic that shows 42 days (6 weeks) to correctly display any month.
 - You can switch months using arrows.
 - It highlights "today" and handles dates using the `java.time` library.
 
-### 🛒 Shopping List
+### Shopping List
 - I used `StateFlow` to make the list reactive. When you check an item, it moves to the "Completed" section automatically.
 - You can add new products and they are linked to specific dates.
 - I used `AtomicLong` for generating unique IDs for items in memory.
 
-## 🏗 How it's built
+## How it's built
 - **Clean Logic:** I kept the UI "stateless" by moving all the data processing into the `ViewModel`.
 - **Flow Operators:** I used `combine` and `map` to filter shopping items in real-time.
 - **YearMonth API:** This helps to easily calculate how many days to show before and after the current month.
 
-## 📸 Screenshots
-*(Don't forget to add a few screenshots of your app here!)*
+## Screenshots
+![Screenshot_20260120_181537_MyCalendar](https://github.com/user-attachments/assets/386fe11e-3e99-40b3-af23-0e660cab9a33)
+![Screenshot_20260120_181520_MyCalendar](https://github.com/user-attachments/assets/6dd35794-35a5-48ce-a0d8-953f29fc8dd2)
+![Screenshot_20260120_183114_MyCalendar](https://github.com/user-attachments/assets/ca1d7567-e16d-413b-9bc7-ddca81251939)
+![Screenshot_20260120_183059_MyCalendar](https://github.com/user-attachments/assets/6ba9b5d5-cf6a-47f6-81ee-9ba43df41f01)
+
 
 ## 🛠 How to run
 1. Clone the repo.
